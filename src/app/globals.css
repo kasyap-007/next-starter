@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: theme(colors.slate.50);
+    --foreground: theme(colors.slate.800);
+    --muted: theme(colors.slate.500);
+    --inverted: theme(colors.slate.100);
+
+    --accent: theme(colors.yellow.500);
+    --primary: theme(colors.slate.950);
+    --secondary: theme(colors.slate.200);
+  }
+}
